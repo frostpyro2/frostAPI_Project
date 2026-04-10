@@ -37,6 +37,7 @@ public class TokenBuilder {
 
             tokens.add(new CustomToken(TokenTemp.SYMBOL, String.valueOf(c)));
         }
+        tokens.add(new CustomToken(TokenTemp.EOF, ""));
         return tokens;
     }
 
