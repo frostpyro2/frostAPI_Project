@@ -1,0 +1,4 @@
+name: frostAPI_project
+version: '${version}'
+main: org.example.contentplugin.frostapi_project.FrostAPI_project
+api-version: '1.21'
