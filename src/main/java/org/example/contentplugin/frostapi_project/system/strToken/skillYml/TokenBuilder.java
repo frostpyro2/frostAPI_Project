@@ -25,7 +25,7 @@ public class TokenBuilder {
                 continue;
             }
 
-            if (Character.isLetter(c) || c == '@' || c == '?'){
+            if (Character.isLetter(c) || c == '@' || c == '?' || c == '~'){
                 tokens.add(identifier());
                 continue;
             }
@@ -46,7 +46,7 @@ public class TokenBuilder {
 
         while (pos < input.length()) {
             char c = input.charAt(pos);
-            if (Character.isLetterOrDigit(c) || c == '@' || c == '?' || c == '_') {
+            if (Character.isLetterOrDigit(c) || c == '@' || c == '?' || c == '_' || c == '~') {
                 sb.append(c);
                 pos++;
             } else break;
