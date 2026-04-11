@@ -5,5 +5,6 @@ public enum TokenTemp {
     NUMBER,
     SYMBOL,
     STRING,
+    BOOL,
     EOF
 }

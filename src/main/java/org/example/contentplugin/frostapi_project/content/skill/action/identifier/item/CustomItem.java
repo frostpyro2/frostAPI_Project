@@ -17,4 +17,18 @@ public class CustomItem implements Inner {
 
         }
     }
+
+    private void customModelData(String token){
+
+    }
+
+    private void duration(String token){
+
+    }
+
+    private void lore(String token){
+
+    }
+
+
 }

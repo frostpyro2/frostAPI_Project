@@ -34,4 +34,19 @@ public class Mob implements Inner {
 
         }
     }
+
+
+    private void setEntity(String token){
+
+    }
+
+    private void setInvincible(String token){
+
+    }
+
+    private void itemHolder(String token){
+
+    }
+
+
 }

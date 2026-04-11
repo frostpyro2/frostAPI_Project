@@ -52,6 +52,10 @@ public class TokenBuilder {
             } else break;
         }
 
+        if(sb.toString().equals("true") || sb.toString().equals("false")){
+            return new CustomToken(TokenTemp.BOOL, sb.toString());
+        }
+
         return new CustomToken(TokenTemp.IDENTIFIER, sb.toString());
     }
 
@@ -99,4 +103,5 @@ public class TokenBuilder {
 
         return new CustomToken(TokenTemp.STRING, sb.toString());
     }
+
 }
