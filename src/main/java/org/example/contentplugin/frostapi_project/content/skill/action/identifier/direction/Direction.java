@@ -4,10 +4,14 @@ import org.example.contentplugin.frostapi_project.content.skill.action.Outer;
 import org.example.contentplugin.frostapi_project.system.strToken.skillYml.CustomToken;
 
 public class Direction implements Outer {
-    private CustomToken input;
+    private String[] tokens;
 
-    public Direction(CustomToken input){
-        this.input = input;
+    private String direction;
+
+    private double weight;
+
+    public Direction(String[] tokens){
+        this.tokens = tokens;
     }
 
 

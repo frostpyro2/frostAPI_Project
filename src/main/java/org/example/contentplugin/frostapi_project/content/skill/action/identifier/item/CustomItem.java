@@ -12,10 +12,18 @@ public class CustomItem implements Inner {
     }
 
 
+    public ItemStack getItem(){
+        return stack;
+    }
+
     private void setItem(){
         for(String token : tokens){
 
         }
+    }
+
+    private void setItemTemplate(String token){
+
     }
 
     private void customModelData(String token){
