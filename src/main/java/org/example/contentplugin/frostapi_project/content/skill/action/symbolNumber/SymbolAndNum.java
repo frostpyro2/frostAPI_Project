@@ -1,4 +1,6 @@
 package org.example.contentplugin.frostapi_project.content.skill.action.symbolNumber;
 
-public class SymbolAndNum {
+import org.example.contentplugin.frostapi_project.content.skill.action.Inner;
+
+public class SymbolAndNum implements Inner {
 }
